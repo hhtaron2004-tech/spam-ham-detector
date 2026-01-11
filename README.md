@@ -56,3 +56,12 @@ This project is educational and demonstrates:
 - Simple ML classification using centroids
 - Basic evaluation metrics
 - Bag-of-words feature extraction
+
+
+```text
+spamham-detector/
+│
+├── spamham_detector.py      # Main Python script (fixed bugs + better row handling)
+├── spamhamdata_sample.csv   # Small example dataset
+└── README.md                # GitHub README
+```
