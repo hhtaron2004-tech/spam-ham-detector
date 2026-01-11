@@ -58,6 +58,8 @@ This project is educational and demonstrates:
 - Bag-of-words feature extraction
 
 
+## 🔧 Project Structure
+
 ```text
 spamham-detector/
 │
