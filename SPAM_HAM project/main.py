@@ -1,15 +1,11 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
-
-from vectorizer import build_vocabulary, create_bow_matrix
-from model import compute_centroids, predict
-from evaluate import evaluate
-
+from src import build_vocabulary, create_bow_matrix, compute_centroids, predict, evaluate, to_alpha
 
 def main():
 
     # Load dataset
-    df = pd.read_csv("spamhamdata.csv", delimiter="\t", header=None)
+    df = pd.read_csv("data/spamhamdata.csv", delimiter="\t", header=None)
     df.columns = ["Category", "Text"]
 
     # Split dataset
