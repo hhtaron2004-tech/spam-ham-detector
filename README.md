@@ -27,8 +27,7 @@ SPAM_HAM_project/
 │  ├─ model.py               # Centroid calculation & prediction
 │  ├─ evaluate.py            # Evaluation functions
 │  └─ preprocessing.py       # Text cleaning (to_alpha)
-├─ main.py                   # Main script to run the pipeline
-└─ .gitignore                # Ignored files (venv, pycache, IDE configs)
+└─ main.py                   # Main script to run the pipeline
 ```
 
 ---
